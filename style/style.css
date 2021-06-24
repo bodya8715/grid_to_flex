@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url('https://static.pexels.com/photos/248515/pexels-photo-248515.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.header__title{
+    color:#ffffff;  
+}
+
+.header__text {
+    margin-top: 20px;
+}
+
+.header__button {
+    display: inline-block;
+    background: #333;
+    transition: background 0.2s ease;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin-top: 20px;
+}
+
+.header__button:hover {
+    background: #fff;
+    color:black;
+}
+
+.aboutUs {
+    background-color: #ffffff;
+    color:#000000;
+    padding: 50px 0px;
+}
+
+.aboutUs__title {
+    margin-bottom: 40px;
+}
+
+.aboutUs__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs__item {
+    width: 45%; 
+}
+
+.areas_of_work {
+    padding: 30px 0;
+    color:#000000;
+}
+
+.areas_of_work_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.areas_of_work-item {
+    width: 30%;
+    margin-right: 15px;
+    background-color: #ffffff;
+}
+
+.areas_of_work-item-content {
+    padding: 25px;
+}
+
+.areas_of_work-title {
+    margin-bottom: 40px;
+    font-size: 1.17em;
+}
+
+.areas_of_work-item-last {
+    margin-right: 0px;
+}
+
+.areas_of_work-image {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.advantages {
+    background-color: #fff;
+    color:#000;
+    padding: 50px 0px;
+}
+
+.advantages-title {
+    margin-bottom: 50px;
+}
+
+.contacts__flex {
+    display: flex;
+}
+
+.contacts-item {
+    width: 50%;
+    padding: 50px 0;
+}
+
+.contacts-item-title {
+    margin-bottom: 40px;
+}
+
+.contacts-item-text {
+    margin-bottom: 40px;
+}
+
+.contacts-item-first {
+    background: #2690d4;
+}
+
+.contacts-item-second {
+    background: #333;
+}
+
+.footer {
+    background-color: #000;
+    padding: 30px 50px;
+}
+
+.footer__flex {
+    display: flex;
+}
+
+.footer__item {
+    width: 50%;
+}
+
+.footer__item a {
+    color:#2690d4;
+}
